@@ -1,6 +1,8 @@
 # EyeQC
 A Quality Assessment Tool for Retinal Images 
 
+![alt text](https://github.com/rdharini2001/EyeQC/blob/main/init_UI.png)
+
 # Metrics 
 
 1. Mean (Average intensity of fundus region)
