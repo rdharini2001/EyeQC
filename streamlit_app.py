@@ -586,7 +586,7 @@ def display_clinical_visualizations(df):
     - **Key Insight**: Strong negative correlations can highlight conflicting characteristics (like high contrast and low blur often go together).
     """)
 
-    '''
+    
     # Another 3D Plotly
     st.markdown("### Plotly 3D Plot: Another Clinical Perspective")
     if all(x in sub_df.columns for x in ["mean","contrast","snr1","psnr","entropy"]):
@@ -603,7 +603,7 @@ def display_clinical_visualizations(df):
         st.plotly_chart(fig_3d_clinical, use_container_width=True)
     else:
         st.info("Not enough columns for the clinical 3D Plot. Need [mean, contrast, snr1, psnr, entropy].")
-    '''
+    
 
 # -----------------------------------------------
 # Streamlit Main
@@ -712,7 +712,7 @@ if uploaded_files:
 
     st.markdown("""
     ---
-    **User-Friendly Interpretation**:
+    **Some Notes**:
 
     1. **Pass/Fail**  
        - Based on the selected metrics and thresholds in the sidebar.  
@@ -737,12 +737,6 @@ if uploaded_files:
        - All metrics in the CSV.  
        - Download from the sidebar.
 
-    **Generating a Public Link**:
-    - If you're running locally, you can upload your app to [Streamlit Cloud](https://streamlit.io/cloud) for free.
-    - Once deployed, you'll get a **public URL** that anyone can open.
-    - Alternatively, you can use [ngrok](https://ngrok.com/) or similar tunneling to share your local port.
-
-    ---
     """)
 else:
     st.info("📂 Upload at least one retinal image to analyze.")
