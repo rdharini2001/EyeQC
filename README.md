@@ -1,5 +1,5 @@
 # EyeQC
-A Quality Assessment Tool for Retinal Images 
+A Quality Assessment Tool in Occluomics
 
 Available at - https://umnqws6lm48n7m3lgadvyz.streamlit.app/
 
