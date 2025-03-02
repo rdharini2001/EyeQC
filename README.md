@@ -42,7 +42,7 @@ pip install -r requirements.txt
 3. Run the Dashboard
 
 ```
-streamlit run pipeline12.py
+streamlit run streamlit_app.py
 ```
 
 # Usage
