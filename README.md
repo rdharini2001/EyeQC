@@ -5,6 +5,8 @@ Available at - https://umnqws6lm48n7m3lgadvyz.streamlit.app/
 
 ![alt text](https://github.com/rdharini2001/EyeQC/blob/main/init_UI.png)
 
+Sample dataset - https://www.kaggle.com/datasets/linchundan/fundusimage1000
+
 # Overview
 
 This Image Quality Dashboard is a Streamlit-based application designed for quality assessment, preprocessing, and batch effect correction of retinal Fundus and OCTA images. It provides interactive visualizations and deep clinical insights by computing various image quality metrics, detecting segmentation failures, and analyzing batch effects.
@@ -47,7 +49,7 @@ streamlit run pipeline12.py
 
 Upload Fundus or OCTA images via the sidebar.
 
-# Choose Processing Mode:
+# Choose Processing Mode
 
 1. Adjustable Quality Metrics: Computes metrics and identifies pass/fail images.
 
