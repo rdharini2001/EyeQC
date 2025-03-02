@@ -11,24 +11,24 @@ This Image Quality Dashboard is a Streamlit-based application designed for quali
 
 # Features
 
-Quality Metric Computation: Evaluates multiple image quality metrics like contrast, PSNR, entropy, blur, and more.
+1. Quality Metric Computation: Evaluates multiple image quality metrics like contrast, PSNR, entropy, blur, and more.
 
-Batch Effect Detection & Correction: Visualizes and corrects batch effects using PCA in 2D & 3D.
+2. Batch Effect Detection & Correction: Visualizes and corrects batch effects using PCA in 2D & 3D.
 
-Interactive 3D Visualizations: Uses PCA, t-SNE, and UMAP for in-depth metric analysis.
+3. Interactive 3D Visualizations: Uses PCA, t-SNE, and UMAP for in-depth metric analysis.
 
-Custom 3D Scatter & Correlation Analysis: Provides interactive 3D plots for metric comparison and correlation.
+4. Custom 3D Scatter & Correlation Analysis: Provides interactive 3D plots for metric comparison and correlation.
 
-Static Visualizations: Includes scatter plots, violin plots, radar charts, and correlation heatmaps.
+5. Static Visualizations: Includes scatter plots, violin plots, radar charts, and correlation heatmaps.
 
-Preprocessing for Fundus & OCTA: Segment and preprocess images for further analysis.
+6. Preprocessing for Fundus & OCTA: Segment and preprocess images for further quality analysis.
 
-Installation
+# Installation
 
 1. Clone the Repository
 
 ```
-git clone https://github.com/your-username/image-quality-dashboard.git
+git clone https://github.com/rdharini2001/EyeQC.git
 cd image-quality-dashboard
 ```
 
@@ -49,19 +49,12 @@ Upload Fundus or OCTA images via the sidebar.
 
 # Choose Processing Mode:
 
-Quality Metrics: Computes metrics and identifies pass/fail images.
+1. Adjustable Quality Metrics: Computes metrics and identifies pass/fail images.
 
-Preprocessing: Segments and preprocesses images.
+2. Fundus and OCTA Preprocessing: Segments FAZ regions in OCTA and the central fundus alongside applying preprocessing algorithms.
 
-Analyze Batch Effects: Check before/after batch correction.
+3. Analyze Batch Effects: Check PCA clsuters before/after batch correction.
 
-Explore Visualizations:
-
-Static: Scatter plots, violin plots, heatmaps.
-
-Interactive 3D: PCA, t-SNE, UMAP visualizations.
-
-Download Results: Export quality metrics as CSV.
 
 # Example Visualizations
 
@@ -232,14 +225,6 @@ Clinical Interpretation:
 
 - High edge density → Sharp retinal vessels and structures.
 - Low edge density → The image may be blurry or low-contrast.
-
-# Future Enhancements
-
-Deep Learning-based Quality Assessment
-
-Automated FAZ segmentation for OCTA
-
-Integration with clinical datasets
 
 # Contributing
 
