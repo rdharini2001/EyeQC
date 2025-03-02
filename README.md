@@ -5,6 +5,77 @@ Available at - https://umnqws6lm48n7m3lgadvyz.streamlit.app/
 
 ![alt text](https://github.com/rdharini2001/EyeQC/blob/main/init_UI.png)
 
+# Overview
+
+This Image Quality Dashboard is a Streamlit-based application designed for quality assessment, preprocessing, and batch effect correction of retinal Fundus and OCTA images. It provides interactive visualizations and deep clinical insights by computing various image quality metrics, detecting segmentation failures, and analyzing batch effects.
+
+# Features
+
+Quality Metric Computation: Evaluates multiple image quality metrics like contrast, PSNR, entropy, blur, and more.
+
+Batch Effect Detection & Correction: Visualizes and corrects batch effects using PCA in 2D & 3D.
+
+Interactive 3D Visualizations: Uses PCA, t-SNE, and UMAP for in-depth metric analysis.
+
+Custom 3D Scatter & Correlation Analysis: Provides interactive 3D plots for metric comparison and correlation.
+
+Static Visualizations: Includes scatter plots, violin plots, radar charts, and correlation heatmaps.
+
+Preprocessing for Fundus & OCTA: Segment and preprocess images for further analysis.
+
+Installation
+
+1. Clone the Repository
+
+```
+git clone https://github.com/your-username/image-quality-dashboard.git
+cd image-quality-dashboard
+```
+
+2. Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+3. Run the Dashboard
+
+```
+streamlit run pipeline12.py
+```
+
+# Usage
+
+Upload Fundus or OCTA images via the sidebar.
+
+# Choose Processing Mode:
+
+Quality Metrics: Computes metrics and identifies pass/fail images.
+
+Preprocessing: Segments and preprocesses images.
+
+Analyze Batch Effects: Check before/after batch correction.
+
+Explore Visualizations:
+
+Static: Scatter plots, violin plots, heatmaps.
+
+Interactive 3D: PCA, t-SNE, UMAP visualizations.
+
+Download Results: Export quality metrics as CSV.
+
+# Example Visualizations
+
+1. PCA-based Batch Effect Visualization
+
+
+
+2. 3D Scatter of Image Quality Metrics
+
+
+
+3. Correlation Heatmap of Metrics
+
+
 # Metrics 
 
 1. Mean (Average intensity of fundus region)
@@ -161,3 +232,29 @@ Clinical Interpretation:
 
 - High edge density → Sharp retinal vessels and structures.
 - Low edge density → The image may be blurry or low-contrast.
+
+# Future Enhancements
+
+Deep Learning-based Quality Assessment
+
+Automated FAZ segmentation for OCTA
+
+Integration with clinical datasets
+
+# Contributing
+
+Contributions are welcome! Please follow these steps:
+
+Fork the repository.
+
+Create a new branch: git checkout -b feature-branch.
+
+Commit changes: git commit -m 'Added a new feature'.
+
+Push to GitHub: git push origin feature-branch.
+
+Submit a Pull Request.
+
+# License
+
+This project is licensed under the MIT License. See LICENSE for details.
