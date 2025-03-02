@@ -3,7 +3,7 @@ A Quality Assessment Tool for Retinal Images
 
 Available at - https://umnqws6lm48n7m3lgadvyz.streamlit.app/
 
-![alt text](https://github.com/rdharini2001/EyeQC/blob/main/init_UI.png)
+![alt text](https://github.com/rdharini2001/EyeQC/blob/main/streamlit_UI.png)
 
 Sample dataset - https://www.kaggle.com/datasets/linchundan/fundusimage1000
 
