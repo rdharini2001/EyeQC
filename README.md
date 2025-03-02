@@ -11,7 +11,7 @@ This Image Quality Dashboard is a Streamlit-based application designed for quali
 
 # Features
 
-1. Quality Metric Computation: Evaluates multiple image quality metrics like contrast, PSNR, entropy, blur, and more.
+1. Quality Metric Computation for OCTA and Fundus: Evaluates multiple image quality metrics like contrast, PSNR, entropy, blur, coefficient of variation etc.
 
 2. Batch Effect Detection & Correction: Visualizes and corrects batch effects using PCA in 2D & 3D.
 
@@ -54,20 +54,6 @@ Upload Fundus or OCTA images via the sidebar.
 2. Fundus and OCTA Preprocessing: Segments FAZ regions in OCTA and the central fundus alongside applying preprocessing algorithms.
 
 3. Analyze Batch Effects: Check PCA clsuters before/after batch correction.
-
-
-# Example Visualizations
-
-1. PCA-based Batch Effect Visualization
-
-
-
-2. 3D Scatter of Image Quality Metrics
-
-
-
-3. Correlation Heatmap of Metrics
-
 
 # Metrics 
 
