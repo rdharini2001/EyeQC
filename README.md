@@ -1,5 +1,5 @@
 # EyeQC
-A Quality Assessment Tool in Occluomics
+A Quality Assessment Tool in Oculomics
 
 Available at - https://umnqws6lm48n7m3lgadvyz.streamlit.app/
 
